@@ -1,1 +1,1 @@
-
+利用vue.js的v-model，在接口数据中添加checked：true/false字段来实现checkbox的全选及反选
