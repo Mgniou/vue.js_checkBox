@@ -1,0 +1,57 @@
+.header {
+  padding: 10px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+
+.controls {
+  padding: 0 10px;
+  position: relative;
+  border-left: 1px solid #eee;
+  overflow: hidden;
+}
+
+.conBox {
+  overflow: hidden;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.row-fluid {
+  display: block;
+  float: left;
+  margin: 0 0 0 20px;
+  width: 85%;
+  padding: 10px 0 0 10px;
+  border-left: 1px solid #efefef;
+}
+
+.row-fluid .dl-horizontal {
+  float: left;
+  width: 33%;
+  padding: 0 0 10px 0;
+}
+
+.titleLi {
+  display: inline-block;
+  float: left; width: 10%;
+  padding: 10px 0 0
+}
+
+.checkbox-inline {
+  padding-left: 0;
+}
+
+.permInfo {
+  max-width:300px;
+  word-break:keep-all;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+
+input[type='checkbox'] {
+  opacity: 1;
+  margin: 0!important;
+  vertical-align: middle;
+}

@@ -1,0 +1,578 @@
+{
+  "errCode": 0,
+  "checked": false,
+  "obj": [
+    {
+      "syscode": "100",
+      "fungid": 1,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 1,
+          "createtime": 1479279600174,
+          "depict": "新建用户",
+          "funcode": "addUser",
+          "checked": false,
+          "updatetime": 1486966064151,
+          "uri": "/api/user/addUser.do",
+          "funid": 5,
+          "funname": "新建用户",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 1,
+          "createtime": 1479279600174,
+          "depict": "编辑用户",
+          "funcode": "updateUser",
+          "checked": false,
+          "updatetime": 1479540116589,
+          "uri": "/api/user/updateUser.do",
+          "funid": 6,
+          "funname": "编辑用户",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 1,
+          "createtime": 1479279600174,
+          "depict": "查看用户详情",
+          "funcode": "getOneUser",
+          "checked": false,
+          "updatetime": 1479540122357,
+          "uri": "/api/user/getOneUser.do",
+          "funid": 7,
+          "funname": "查看用户详情",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 1,
+          "createtime": 1479279600174,
+          "depict": "查看用户列表",
+          "funcode": "getUserList",
+          "checked": false,
+          "updatetime": 1479540128274,
+          "uri": "/api/user/getUserList.do",
+          "funid": 8,
+          "funname": "查看用户列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "用户管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 9,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 9,
+          "createtime": 1479279600174,
+          "depict": "查看课时列表",
+          "funcode": "getLessonList",
+          "checked": false,
+          "updatetime": 1480401736550,
+          "uri": "/api/lesson/getLessonList.do",
+          "funid": 36,
+          "funname": "查看课时列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "课时管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 8,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 8,
+          "createtime": 1479279600174,
+          "depict": "查看大屏幕顶部基本信息",
+          "funcode": "getBigScreenBaseInfo",
+          "checked": false,
+          "updatetime": 1479965092184,
+          "uri": "/api/bigscreen/getBigScreenBaseInfo.do",
+          "funid": 31,
+          "funname": "查看大屏幕顶部基本信息",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 8,
+          "createtime": 1479279600174,
+          "depict": "查看大屏幕弹幕数据",
+          "funcode": "getBigScreenData",
+          "checked": false,
+          "updatetime": 1479965147108,
+          "uri": "/api/bigscreen/getBigScreenData.do",
+          "funid": 32,
+          "funname": "查看大屏幕弹幕数据",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 8,
+          "createtime": 1479279600174,
+          "depict": "查看大屏幕男女排名",
+          "funcode": "getBigScreenRanking",
+          "checked": false,
+          "updatetime": 1479965181773,
+          "uri": "/api/bigscreen/getBigScreenRanking.do",
+          "funid": 33,
+          "funname": "查看大屏幕男女排名",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 8,
+          "createtime": 1479279600174,
+          "depict": "查看大屏幕历史数据",
+          "funcode": "getBigScreenHistoryAct",
+          "checked": false,
+          "updatetime": 1479965217657,
+          "uri": "/api/bigscreen/getBigScreenHistoryAct.do",
+          "funid": 34,
+          "funname": "查看大屏幕历史数据",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 8,
+          "createtime": 1479279600174,
+          "depict": "查看大屏幕雷达图",
+          "funcode": "getBigScreenRadarData",
+          "checked": false,
+          "updatetime": 1479965259033,
+          "uri": "/api/bigscreen/getBigScreenRadarData.do",
+          "funid": 35,
+          "funname": "查看大屏幕雷达图",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "大屏幕管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 7,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看学校活动统计列表",
+          "funcode": "getActivityReportList",
+          "checked": false,
+          "updatetime": 1479965558466,
+          "uri": "/api/report/getActivityReportList.do",
+          "funid": 24,
+          "funname": "查看学校活动统计列表",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看学校年级平均成绩柱状图",
+          "funcode": "getClassAverageTime",
+          "checked": false,
+          "updatetime": 1479965566686,
+          "uri": "/api/report/getClassAverageTime.do",
+          "funid": 25,
+          "funname": "查看学校年级平均成绩柱状图",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看学校统计页面基本信息",
+          "funcode": "getSchoolStatInfo",
+          "checked": false,
+          "updatetime": 1479965573449,
+          "uri": "/api/report/getSchoolStatInfo.do",
+          "funid": 26,
+          "funname": "查看学校统计页面基本信息",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看步道分段平均成绩雷达图",
+          "funcode": "getWayStandardInfo",
+          "checked": false,
+          "updatetime": 1479965578698,
+          "uri": "/api/report/getWayStandardInfo.do",
+          "funid": 27,
+          "funname": "查看步道分段平均成绩雷达图",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看班级学生分段成绩统计列表",
+          "funcode": "getStudentScoreDetailList",
+          "checked": false,
+          "updatetime": 1479965585975,
+          "uri": "/api/report/getStudentScoreDetailList.do",
+          "funid": 28,
+          "funname": "查看班级学生分段成绩统计列表",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看学生历史成绩",
+          "funcode": "getStudentHistoryScoreReport",
+          "checked": false,
+          "updatetime": 1479965590674,
+          "uri": "/api/report/getStudentHistoryScoreReport.do",
+          "funid": 29,
+          "funname": "查看学生历史成绩",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 7,
+          "createtime": 1479279600174,
+          "depict": "查看活动中学生个人报告",
+          "funcode": "getPersonalReport",
+          "checked": false,
+          "updatetime": 1479965595035,
+          "uri": "/api/report/getPersonalReport.do",
+          "funid": 30,
+          "funname": "查看活动中学生个人报告",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "报表管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 6,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 6,
+          "createtime": 1479279600174,
+          "depict": "查看扫描器列表",
+          "funcode": "getWayScannerList",
+          "checked": false,
+          "updatetime": 1479540872368,
+          "uri": "/api/device/getWayScannerList.do",
+          "funid": 18,
+          "funname": "查看扫描器列表",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 6,
+          "createtime": 1479279600174,
+          "depict": "更新扫描器",
+          "funcode": "updateWayScanner",
+          "checked": false,
+          "updatetime": 1479540919241,
+          "uri": "/api/device/updateWayScanner.do",
+          "funid": 19,
+          "funname": "更新扫描器",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 6,
+          "createtime": 1479279600174,
+          "depict": "查看手环列表",
+          "funcode": "getRingList",
+          "checked": false,
+          "updatetime": 1479540961834,
+          "uri": "/api/device/getRingList.do",
+          "funid": 20,
+          "funname": "查看手环列表",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 6,
+          "createtime": 1479279600174,
+          "depict": "新建手环",
+          "funcode": "addRing",
+          "checked": false,
+          "updatetime": 1479540986383,
+          "uri": "/api/device/addRing.do",
+          "funid": 21,
+          "funname": "新建手环",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 6,
+          "createtime": 1479279600174,
+          "depict": "更新手环",
+          "funcode": "updateRing",
+          "checked": false,
+          "updatetime": 1479541012420,
+          "uri": "/api/device/updateRing.do",
+          "funid": 22,
+          "funname": "更新手环",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "设备管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 5,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 5,
+          "createtime": 1479279600174,
+          "depict": "新建场地",
+          "funcode": "addWay",
+          "checked": false,
+          "updatetime": 1479540701364,
+          "uri": "/api/way/addWay.do",
+          "funid": 16,
+          "funname": "新建场地",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 5,
+          "createtime": 1479279600174,
+          "depict": "查看场地列表",
+          "funcode": "getWayList",
+          "checked": false,
+          "updatetime": 1479540737131,
+          "uri": "/api/way/getWayList.do",
+          "funid": 17,
+          "funname": "查看场地列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "场地管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 4,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 4,
+          "createtime": 1479279600174,
+          "depict": "新建学生",
+          "funcode": "addStudent",
+          "checked": false,
+          "updatetime": 1479540392126,
+          "uri": "/api/student/addStudent.do",
+          "funid": 14,
+          "funname": "新建学生",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 4,
+          "createtime": 1479279600174,
+          "depict": "查看学生列表",
+          "funcode": "getStudentList",
+          "checked": false,
+          "updatetime": 1479540430170,
+          "uri": "/api/student/getStudentList.do",
+          "funid": 15,
+          "funname": "查看学生列表",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 4,
+          "createtime": 1479279600174,
+          "depict": "导入Excel添加学生",
+          "funcode": "uploadStudentExecl",
+          "checked": false,
+          "updatetime": 1479541356986,
+          "uri": "/api/upload/uploadStudentExecl.do",
+          "funid": 23,
+          "funname": "导入Excel添加学生",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 4,
+          "createtime": 1479279600174,
+          "depict": "查看学生详情",
+          "funcode": "getOneStudent",
+          "checked": false,
+          "updatetime": 1480557194377,
+          "uri": "/api/student/getOneStudent.do",
+          "funid": 38,
+          "funname": "查看学生详情",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "学生管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 3,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 3,
+          "createtime": 1479279600174,
+          "depict": "新建班级",
+          "funcode": "addSclass",
+          "checked": false,
+          "updatetime": 1479539931090,
+          "uri": "api/sclass/addSclass.do",
+          "funid": 10,
+          "funname": "新建班级",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 3,
+          "createtime": 1479279600174,
+          "depict": "编辑班级",
+          "funcode": "updateSclass",
+          "checked": false,
+          "updatetime": 1479540237851,
+          "uri": "/api/sclass/updateSclass.do",
+          "funid": 11,
+          "funname": "编辑班级",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 3,
+          "createtime": 1479279600174,
+          "depict": "查看班级详情",
+          "funcode": "getOneSclass",
+          "checked": false,
+          "updatetime": 1479540324258,
+          "uri": "/api/sclass/getOneSclass.do",
+          "funid": 12,
+          "funname": "查看班级详情",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 3,
+          "createtime": 1479279600174,
+          "depict": "查看班级列表",
+          "funcode": "getSclassList",
+          "checked": false,
+          "updatetime": 1479540309797,
+          "uri": "/api/sclass/getSclassList.do",
+          "funid": 13,
+          "funname": "查看班级列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "班级管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 2,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 2,
+          "createtime": 1479279600174,
+          "depict": "新建学校",
+          "funcode": "addSchool",
+          "checked": false,
+          "updatetime": 1479540134238,
+          "uri": "/api/school/addSchool.do",
+          "funid": 1,
+          "funname": "新建学校",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 2,
+          "createtime": 1479279600174,
+          "depict": "编辑学校",
+          "funcode": "updateSchool",
+          "checked": false,
+          "updatetime": 1479540140609,
+          "uri": "/api/school/updateSchool.do",
+          "funid": 2,
+          "funname": "编辑学校",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 2,
+          "createtime": 1479279600174,
+          "depict": "查看详情",
+          "funcode": "getOneSchool",
+          "checked": false,
+          "updatetime": 1479540148864,
+          "uri": "/api/school/getOneSchool.do",
+          "funid": 3,
+          "funname": "查看学校详情",
+          "status": 0
+        },
+        {
+          "syscode": "100",
+          "fungid": 2,
+          "createtime": 1479279600174,
+          "depict": "查看学校列表",
+          "funcode": "getSchoolList",
+          "checked": false,
+          "updatetime": 1479540163801,
+          "uri": "/api/school/getSchoolList.do",
+          "funid": 4,
+          "funname": "查看学校列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "学校管理"
+    },
+    {
+      "syscode": "100",
+      "fungid": 10,
+      "createtime": 1481874991114,
+      "functionList": [
+        {
+          "syscode": "100",
+          "fungid": 10,
+          "createtime": 1479279600174,
+          "depict": "查看活动列表",
+          "funcode": "getActivityList",
+          "checked": false,
+          "updatetime": 1480401777587,
+          "uri": "/api/activity/getActivityList.do",
+          "funid": 37,
+          "funname": "查看活动列表",
+          "status": 0
+        }
+      ],
+      "checked": false,
+      "groupname": "活动管理"
+    }
+  ],
+  "errMsg": ""
+}
